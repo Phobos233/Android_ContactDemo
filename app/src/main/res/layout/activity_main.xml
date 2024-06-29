@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/mainToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:title="@string/app_name"
+    >
+
+
+</androidx.appcompat.widget.Toolbar>
+    <EditText
+        android:id="@+id/search_string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@+id/mainToolbar"
+        android:visibility="invisible"
+        android:hint="@string/tip_search_main"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+    <ListView
+        android:id="@+id/ContactsData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_string"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

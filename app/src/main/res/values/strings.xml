@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ContactsDemo</string>
+    <string name="tip_search_main">输入名字或号码</string>
+</resources>

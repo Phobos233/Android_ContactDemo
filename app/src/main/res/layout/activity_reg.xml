@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/title_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:text="Register"
+        android:layout_marginTop="100dp"/>
+    <EditText
+        android:id="@+id/username_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_reg"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:textSize="30sp"
+        android:inputType="text"
+        android:hint="username"
+        />
+    <EditText
+        android:id="@+id/password_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_reg"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:textSize="30sp"
+        android:inputType="textPassword"
+        android:hint="password"/>
+
+    <Button
+        android:id="@+id/reg_button_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="56dp"
+        android:layout_below="@id/password_reg"
+        android:textSize="30sp"
+        android:text="Register"
+        />
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
